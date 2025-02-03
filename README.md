@@ -1,26 +1,5 @@
 # Transformer Model from Scratch using TensorFlow
 
-This repository implements a Transformer model from scratch using TensorFlow. The Transformer architecture is designed for sequence-to-sequence tasks and relies entirely on a mechanism called **self-attention** to capture dependencies between input and output.
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Architecture Overview](#architecture-overview)
-   - [Encoder](#encoder)
-   - [Decoder](#decoder)
-3. [Implementation](#implementation)
-   - [Importing Required Libraries](#importing-required-libraries)
-   - [Positional Encoding](#positional-encoding)
-   - [Multi-Head Attention](#multi-head-attention)
-   - [Feed-Forward Network](#feed-forward-network)
-   - [Transformer Block](#transformer-block)
-   - [Encoder](#encoder-implementation)
-   - [Decoder](#decoder-implementation)
-   - [Transformer Model](#transformer-model)
-   - [Training and Testing](#training-and-testing)
-4. [Conclusion](#conclusion)
-
----
-
 ## Introduction
 
 The Transformer architecture has revolutionized natural language processing and sequence modeling tasks, providing a highly parallelizable structure with faster training and better performance than traditional models like RNNs or LSTMs. This repository demonstrates the complete implementation of the Transformer model using TensorFlow and Keras.
@@ -228,5 +207,6 @@ print(output.shape)  # Expected output: (64, 50, target_vocab_size)
 ## Conclusion
 This repository demonstrates the step-by-step implementation of a Transformer model from scratch using TensorFlow. The Transformer is highly effective for tasks such as machine translation, text summarization, and other NLP applications.
 
-#   T r a n s f o r m e r - M o d e l - f r o m - S c r a t c h - u s i n g - T e n s o r F l o w  
+#   T r a n s f o r m e r - M o d e l - f r o m - S c r a t c h - u s i n g - T e n s o r F l o w 
+ 
  
